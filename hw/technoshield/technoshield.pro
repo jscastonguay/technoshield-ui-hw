@@ -1,4 +1,4 @@
-update=ven 18 nov 2016 15:21:43 EST
+update=2017-01-20 10:48:00
 version=1
 last_client=kicad
 [pcbnew]
@@ -29,7 +29,7 @@ version=1
 version=1
 LibDir=../lib-kicad/KiCad-Libraries/symbols;../lib-kicad/technoshield-lib
 [eeschema/libraries]
-LibName1=/home/jsc/Documents/cegep/gitlab/technoshield/hw/lib-kicad/technoshield-lib/MCP23008
+LibName1=technoshield-rescue
 LibName2=power
 LibName3=device
 LibName4=transistors
@@ -60,7 +60,8 @@ LibName28=opto
 LibName29=atmel
 LibName30=contrib
 LibName31=valves
-LibName32=/home/jsc/Documents/cegep/gitlab/technoshield/hw/lib-kicad/KiCad-Libraries/symbols/Connectors
-LibName33=DataStorage
-LibName34=PDM1-S5-D15-S
-LibName35=HEF4050B
+LibName32=DataStorage
+LibName33=PDM1-S5-D15-S
+LibName34=HEF4050B
+LibName35=MCP23008
+LibName36=Connectors
