@@ -3,4 +3,6 @@
   (lib (name T67K)(type Legacy)(uri C:\Users\Proprietaire\Documents\technoshield\hw\lib-kicad\technoshield-lib\T67K.mod)(options "")(descr ""))
   (lib (name smt_btn)(type KiCad)(uri C:\Users\Proprietaire\Documents\technoshield\hw\lib-kicad\technoshield-lib\smt_btn.pretty)(options "")(descr ""))
   (lib (name SO16-3_9mm)(type KiCad)(uri C:\Users\Proprietaire\Documents\technoshield\hw\lib-kicad\technoshield-lib\SO16-3_9mm.pretty)(options "")(descr ""))
+  (lib (name POTENTIOMETRES)(type KiCad)(uri C:\Users\Proprietaire\Documents\technoshield\hw\lib-kicad\technoshield-lib\POTENTIOMETRES.pretty)(options "")(descr ""))
+  (lib (name PDM1-S)(type KiCad)(uri C:\Users\Proprietaire\Documents\technoshield\hw\lib-kicad\technoshield-lib\PDM1-S.pretty)(options "")(descr ""))
 )
