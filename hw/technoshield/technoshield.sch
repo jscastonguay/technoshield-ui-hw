@@ -41,12 +41,12 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Technoshield"
-Date "2016-11-16"
-Rev "-- (en dev)"
+Date "2017-02-03"
+Rev "--"
 Comp "Cégep de La Pocatière"
-Comment1 "Choisir une licence"
-Comment2 ""
-Comment3 ""
+Comment1 "https://creativecommons.org/licenses/by-sa/4.0/"
+Comment2 "Released under the Creative Commons Attribution Share-Alike 4.0 License"
+Comment3 "Jean-Sébastien Castonguay"
 Comment4 ""
 $EndDescr
 $Comp
