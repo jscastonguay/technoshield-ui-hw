@@ -44,10 +44,10 @@ Title "Technoshield"
 Date "2017-02-03"
 Rev "--"
 Comp "Cégep de La Pocatière"
-Comment1 "https://creativecommons.org/licenses/by-sa/4.0/"
-Comment2 "Released under the Creative Commons Attribution Share-Alike 4.0 License"
-Comment3 "Jean-Sébastien Castonguay"
-Comment4 ""
+Comment1 "Adapted from https://learn.adafruit.com/i2c-spi-lcd-backpack"
+Comment2 "https://creativecommons.org/licenses/by-sa/4.0/"
+Comment3 "Released under the Creative Commons Attribution Share-Alike 4.0 License"
+Comment4 "Copyright 2017 Jean-Sébastien Castonguay"
 $EndDescr
 $Comp
 L CONN_8 P2
@@ -199,6 +199,8 @@ F 0 "DS1" H 3650 2550 50  0000 C CNN
 F 1 "LCD-016N002L" H 5150 2550 50  0000 C CNN
 F 2 "Displays:WC1602A" H 4450 2100 50  0000 C CIN
 F 3 "" H 4450 2150 50  0000 C CNN
+F 4 "DLC01602B" H 4450 2150 60  0001 C CNN "order"
+F 5 "Elecrow" H 4450 2150 60  0001 C CNN "supplier"
 	1    4450 2150
 	0    1    -1   0   
 $EndComp
@@ -207,9 +209,12 @@ L MicroSD J1
 U 1 1 582C8F26
 P 9450 5250
 F 0 "J1" H 9250 5950 60  0000 C CNN
-F 1 "101-00303-68-1-ND" H 9150 4550 60  0000 C CNN
+F 1 "101-00303-68" H 9150 4550 60  0000 C CNN
 F 2 "Connectors_lib:MICRO_SD_HINGE_AMP" H 9550 5400 60  0001 C CNN
 F 3 "" H 9550 5400 60  0000 C CNN
+F 4 "101-00303-68-1-ND" H 9450 5250 60  0001 C CNN "order"
+F 5 "Amphenol Commercial Products" H 9450 5250 60  0001 C CNN "manufacturer"
+F 6 "Digikey" H 9450 5250 60  0001 C CNN "supplier"
 	1    9450 5250
 	-1   0    0    -1  
 $EndComp
@@ -221,6 +226,9 @@ F 0 "U2" H 2950 5850 50  0000 C CNN
 F 1 "MCP23008" H 2950 6050 50  0000 C CNN
 F 2 "Housings_DIP:DIP-18_W7.62mm_LongPads" H 2950 5950 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21919e.pdf" H 2950 5950 50  0001 C CNN
+F 4 "MCP23008-E/P-ND" H 2950 5950 60  0001 C CNN "order"
+F 5 "Microchip" H 2950 5950 60  0001 C CNN "manufacturer"
+F 6 "Digikey" H 2950 5950 60  0001 C CNN "supplier"
 	1    2950 5950
 	1    0    0    -1  
 $EndComp
@@ -232,6 +240,9 @@ F 0 "U3" H 2750 1700 50  0000 C CNN
 F 1 "MCP23008" H 2750 1900 50  0000 C CNN
 F 2 "Housings_DIP:DIP-18_W7.62mm_LongPads" H 2750 1800 50  0001 C CNN
 F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/21919e.pdf" H 2750 1800 50  0001 C CNN
+F 4 "MCP23008-E/P-ND" H 2750 1800 60  0001 C CNN "order"
+F 5 "Microchip" H 2750 1800 60  0001 C CNN "manufacturer"
+F 6 "Digikey" H 2750 1800 60  0001 C CNN "supplier"
 	1    2750 1800
 	1    0    0    -1  
 $EndComp
@@ -380,6 +391,9 @@ F 0 "RV1" H 3500 2920 50  0000 C CNN
 F 1 "10k" H 3500 3000 50  0000 C CNN
 F 2 "POTENTIOMETRES:POTENTIOMETRE_BOURNS_3319P" H 3500 3000 50  0001 C CNN
 F 3 "" H 3500 3000 50  0000 C CNN
+F 4 "3319P-1-103" H 3500 3000 60  0001 C CNN "order"
+F 5 "Bourns Inc." H 3500 3000 60  0001 C CNN "manufacturer"
+F 6 "Digikey" H 3500 3000 60  0001 C CNN "supplier"
 	1    3500 3000
 	0    1    1    0   
 $EndComp
@@ -653,6 +667,9 @@ F 0 "D1" H 5000 6625 50  0000 L CNN
 F 1 "LS T67K-J1K2-1-Z" H 4875 6400 50  0000 L CNN
 F 2 "T67K:T67K" V 5050 6500 50  0001 C CNN
 F 3 "" V 5050 6500 50  0000 C CNN
+F 4 "475-1180-1-ND" H 5050 6500 60  0001 C CNN "order"
+F 5 "OSRAM Opto Semiconductors Inc." H 5050 6500 60  0001 C CNN "manufacturer"
+F 6 "Digikey" H 5050 6500 60  0001 C CNN "supplier"
 	1    5050 6500
 	-1   0    0    1   
 $EndComp
@@ -664,6 +681,9 @@ F 0 "D2" H 5000 6925 50  0000 L CNN
 F 1 "LY T67K-J2L1-26-Z" H 4875 6700 50  0000 L CNN
 F 2 "T67K:T67K" V 5050 6800 50  0001 C CNN
 F 3 "" V 5050 6800 50  0000 C CNN
+F 4 "475-2798-1-ND" H 5050 6800 60  0001 C CNN "order"
+F 5 "OSRAM Opto Semiconductors Inc." H 5050 6800 60  0001 C CNN "manufacturer"
+F 6 "Digikey" H 5050 6800 60  0001 C CNN "supplier"
 	1    5050 6800
 	-1   0    0    1   
 $EndComp
@@ -675,6 +695,9 @@ F 0 "D3" H 5000 7225 50  0000 L CNN
 F 1 "LP T67K-E1F2-25-Z" H 4875 7000 50  0000 L CNN
 F 2 "T67K:T67K" V 5050 7100 50  0001 C CNN
 F 3 "" V 5050 7100 50  0000 C CNN
+F 4 "475-2752-1-ND" H 5050 7100 60  0001 C CNN "order"
+F 5 "OSRAM Opto Semiconductors Inc." H 5050 7100 60  0001 C CNN "manufacturer"
+F 6 "Digikey" H 5050 7100 60  0001 C CNN "supplier"
 	1    5050 7100
 	-1   0    0    1   
 $EndComp
@@ -1063,6 +1086,9 @@ F 0 "U1" H 2350 3750 50  0000 C CNN
 F 1 "PDM1-S5-D15-S" H 2350 4200 50  0000 C CNN
 F 2 "PDM1-S:PDM1-S" H 2350 3850 50  0001 C CNN
 F 3 "DOCUMENTATION" H 2350 3850 50  0001 C CNN
+F 4 "102-2721-ND" H 2350 3850 60  0001 C CNN "order"
+F 5 "CUI Inc." H 2350 3850 60  0001 C CNN "manufacturer"
+F 6 "Digikey" H 2350 3850 60  0001 C CNN "supplier"
 	1    2350 3850
 	1    0    0    -1  
 $EndComp
@@ -1217,6 +1243,7 @@ F 0 "C1" H 6475 3300 50  0000 L CNN
 F 1 "0.1uF" H 6475 3100 50  0000 L CNN
 F 2 "Capacitors_THT:C_Disc_D3.0mm_W1.6mm_P2.50mm" H 6488 3050 50  0001 C CNN
 F 3 "" H 6450 3200 50  0000 C CNN
+F 4 "Cégep" H 6450 3200 60  0001 C CNN "supplier"
 	1    6450 3200
 	1    0    0    -1  
 $EndComp
@@ -1250,6 +1277,9 @@ F 0 "U4" H 7800 4950 50  0000 C CNN
 F 1 "HEF4050B" H 7800 5150 50  0000 C CNN
 F 2 "SO16-3_9mm:SO16-3_9mm" H 7800 5050 50  0001 C CNN
 F 3 "DOCUMENTATION" H 7800 5050 50  0001 C CNN
+F 4 "568-8234-2-ND" H 7800 5050 60  0001 C CNN "order"
+F 5 "NXP" H 7800 5050 60  0001 C CNN "manufacturer"
+F 6 "Digiey" H 7800 5050 60  0001 C CNN "supplier"
 	1    7800 5050
 	1    0    0    -1  
 $EndComp
@@ -1360,6 +1390,9 @@ F 0 "D4" H 8800 4575 50  0000 L CNN
 F 1 "LP T67K-E1F2-25-Z" H 8675 4350 50  0000 L CNN
 F 2 "T67K:T67K" V 8850 4450 50  0001 C CNN
 F 3 "" V 8850 4450 50  0000 C CNN
+F 4 "LP T67K-E1F2-25-Z" H 8850 4450 60  0001 C CNN "order"
+F 5 "OSRAM Opto Semiconductors Inc." H 8850 4450 60  0001 C CNN "manufacturer"
+F 6 "Digiey" H 8850 4450 60  0001 C CNN "supplier"
 	1    8850 4450
 	0    -1   -1   0   
 $EndComp
@@ -1490,8 +1523,6 @@ Text Notes 5450 7100 0    60   ~ 0
 Green @ 2 mA @ 1.8 V
 Text Notes 8700 4550 1    60   ~ 0
 Green @ 2 mA @ 1.8 V
-Text Notes 3350 3450 1    60   ~ 0
-DIGIKEY #: 3319P-1-103
 $Comp
 L Q_NPN_BEC Q1
 U 1 1 588A7B05
@@ -1500,6 +1531,9 @@ F 0 "Q1" H 4600 950 50  0000 L CNN
 F 1 "MMBT2222A-7-F" H 4600 850 50  0000 L CNN
 F 2 "TO_SOT_Packages_SMD:SOT-23" H 4600 1000 50  0001 C CNN
 F 3 "" H 4400 900 50  0000 C CNN
+F 4 "MMBT2222A-FDICT-ND" H 4400 900 60  0001 C CNN "order"
+F 5 "Diodes Incorporated" H 4400 900 60  0001 C CNN "manufacturer"
+F 6 "Digikey" H 4400 900 60  0001 C CNN "supplier"
 	1    4400 900 
 	1    0    0    -1  
 $EndComp
@@ -1517,6 +1551,7 @@ F 0 "SW6" H 6750 1760 50  0000 C CNN
 F 1 "SW_PUSH" H 6600 1570 50  0000 C CNN
 F 2 "smt_btn:smt_btn" H 6600 1650 50  0001 C CNN
 F 3 "" H 6600 1650 50  0000 C CNN
+F 4 "Cégep" H 6600 1650 60  0001 C CNN "supplier"
 	1    6600 1650
 	0    -1   -1   0   
 $EndComp
