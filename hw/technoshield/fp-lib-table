@@ -5,4 +5,5 @@
   (lib (name SO16-3_9mm)(type KiCad)(uri C:\Users\Proprietaire\Documents\technoshield\hw\lib-kicad\technoshield-lib\SO16-3_9mm.pretty)(options "")(descr ""))
   (lib (name POTENTIOMETRES)(type KiCad)(uri C:\Users\Proprietaire\Documents\technoshield\hw\lib-kicad\technoshield-lib\POTENTIOMETRES.pretty)(options "")(descr ""))
   (lib (name PDM1-S)(type KiCad)(uri C:\Users\Proprietaire\Documents\technoshield\hw\lib-kicad\technoshield-lib\PDM1-S.pretty)(options "")(descr ""))
+  (lib (name logo)(type KiCad)(uri "C:\\Users\\Proprietaire\\Documents\\transfers documents linux\\Documents\\cegep\\github\\technoshield-ui-hw\\doc\\logo.pretty")(options "")(descr ""))
 )
