@@ -1,5 +1,4 @@
 EESchema Schematic File Version 2
-LIBS:technoshield-rescue
 LIBS:power
 LIBS:device
 LIBS:transistors
@@ -41,8 +40,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "Technoshield"
-Date "2017-02-03"
-Rev "--"
+Date "2017-05-02"
+Rev "A"
 Comp "Cégep de La Pocatière"
 Comment1 "Adapted from https://learn.adafruit.com/i2c-spi-lcd-backpack"
 Comment2 "https://creativecommons.org/licenses/by-sa/4.0/"

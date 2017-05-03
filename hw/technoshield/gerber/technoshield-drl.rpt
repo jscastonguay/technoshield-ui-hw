@@ -1,0 +1,30 @@
+Drill report for C:\Users\Proprietaire\Documents\transfers documents linux\Documents\cegep\github\technoshield-ui-hw\hw\technoshield\technoshield.kicad_pcb
+Created on 2017-05-03 08:17:40
+
+Copper Layer Stackup:
+    =============================================================
+    L1 :  F.Cu                      front
+    L2 :  B.Cu                      back
+
+
+Drill file 'technoshield.drl' contains
+    plated through holes:
+    =============================================================
+    T1  0,40mm  0,016"  (61 holes)
+    T2  0,70mm  0,028"  (22 holes)
+    T3  0,80mm  0,031"  (48 holes)
+    T4  0,99mm  0,039"  (5 holes)
+    T5  1,00mm  0,039"  (15 holes)
+    T6  1,02mm  0,040"  (32 holes)
+    T7  1,20mm  0,047"  (16 holes)
+    T8  1,27mm  0,050"  (3 holes)
+    T9  2,50mm  0,098"  (4 holes)
+
+    Total plated holes count 206
+
+
+Drill file 'technoshield-NPTH.drl' contains
+    unplated through holes:
+    =============================================================
+
+    Total unplated holes count 0

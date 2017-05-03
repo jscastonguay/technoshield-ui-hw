@@ -1,4 +1,4 @@
-update=2017-01-20 10:48:00
+update=2017-05-02 21:21:23
 version=1
 last_client=kicad
 [pcbnew]
@@ -65,3 +65,13 @@ LibName33=PDM1-S5-D15-S
 LibName34=HEF4050B
 LibName35=MCP23008
 LibName36=Connectors
+[schematic_editor]
+version=1
+PageLayoutDescrFile=
+PlotDirectoryName=.
+SubpartIdSeparator=0
+SubpartFirstId=65
+NetFmtName=
+SpiceForceRefPrefix=0
+SpiceUseNetNumbers=0
+LabSize=60
