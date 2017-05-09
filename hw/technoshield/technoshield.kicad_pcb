@@ -76,7 +76,7 @@
     (aux_axis_origin 110.998 126.365)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x010fc_80000001)
+      (layerselection 0x010f8_80000001)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
