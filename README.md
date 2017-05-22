@@ -1,12 +1,10 @@
-# technoshield-ui-hw
+# Technoshield User Interface HW
+
+See the folling link for further details: [Technoshield Hackaday project](https://hackaday.io/project/21892-technoshield-user-interface)
 
 ## Release note
 
 This is the description of the Technoshield HW revisions.
-
-Note that the LCD and the buttons/led are driven throught I2C via two MCP23008 devices.
-The Arduino's I2C pins used are A4 and A5 (which are the ones of the Arduino UNO).
-See the folling link for further details: [Technoshield Hackaday project](https://hackaday.io/project/21892-technoshield-user-interface)
 
 ### Revision A
 
